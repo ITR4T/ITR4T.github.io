@@ -66,10 +66,17 @@ body {
 .mynavbar .offcanvas-title {
   font-family: "sacramento", cursive;
   font-size: 3.5rem;
+  font-weight: bold;
 }
 
 .mynavbar .nav-link {
   text-transform: uppercase;
+}
+
+.home {
+  background-image: url(img/1.png);
+  background-position: center;
+  background-size: cover;
 }
 
 /* Media Query */
@@ -107,8 +114,7 @@ body {
     padding: 40px;
     margin: 3px;
   }
-  .mynavbar .nav-link { 
+  .mynavbar .nav-link {
     text-align: center;
   }
-}
 }
